@@ -1,7 +1,9 @@
 venv/
+.env
 __pycache__/
 *.pyc
-.env
-.ipynb_checkpoints/
+*.pyo
+*.pyd
+desktop.ini
 .DS_Store
-Thumbs.db
+.vscode/

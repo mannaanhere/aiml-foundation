@@ -1,19 +1,12 @@
-# Vector Addition and Multiplication
+import numpy as np
 
-def add_vectors(v1, v2):
-    return [v1[i] + v2[i] for i in range(len(v1))]
+# Define two vectors
+a = np.array([10, 20, 30])
+b = np.array([2, 5, 10])
 
-def multiply_vectors(v1, v2):
-    return [v1[i] * v2[i] for i in range(len(v1))]
+# Subtraction
+subtraction = a - b
 
-# Example Vectors
-v1 = [1, 2, 3]
-v2 = [4, 5, 6]
-
-sum_vector = add_vectors(v1, v2)
-product_vector = multiply_vectors(v1, v2)
-
-print("Vector 1:", v1)
-print("Vector 2:", v2)
-print("Addition:", sum_vector)
-print("Multiplication:", product_vector)
+print("Vector A:", a)
+print("Vector B:", b)
+print("A - B =", subtraction)
